@@ -2,6 +2,10 @@
 
 buildscript {
     repositories {
+        gradlePluginPortal()
+        maven {
+            url 'https://plugins.gradle.org/plugins'
+        }
         jcenter()
         maven {
             url 'https://maven.google.com/'
